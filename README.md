@@ -1,71 +1,70 @@
-Aqui está um exemplo de README para o código do Validador de CPF:
+# **CPF Validator**
 
-# **Validador de CPF**
-
-Este é um programa simples em Python que valida a autenticidade de um CPF (Cadastro de Pessoa Física) brasileiro. Ele realiza o cálculo dos dois dígitos verificadores de um CPF e verifica se eles coincidem com os valores esperados, confirmando se o CPF fornecido é válido ou inválido.
+This is a simple Python program that validates the authenticity of a Brazilian CPF (Cadastro de Pessoa Física). It calculates the two verification digits of a CPF and checks if they match the expected values, confirming whether the provided CPF is valid or invalid.
 
 ---
 
-## **Funcionalidades**
+## **Features**
 
-- **Validação de CPF:** O programa valida um número de CPF inserido, verificando a consistência dos dois últimos dígitos verificadores.
-- **Verificação de CPF Inválido:** O programa detecta CPFs que possuem número de caracteres inválido ou que não passam na validação dos cálculos de verificação.
-
----
-
-## **Como Usar**
-
-1. Execute o programa no terminal.
-2. O programa pedirá para você digitar um número de CPF. 
-3. Após inserir o CPF, o programa verificará a validade dos dois dígitos verificadores e informará se o CPF é **válido** ou **inválido**.
+* **CPF Validation:** The program validates an entered CPF number by verifying the consistency of its last two verification digits.
+* **Invalid CPF Detection:** The program detects CPFs with an invalid number of characters or that fail the verification digit calculations.
 
 ---
 
-## **Exemplo de Execução**
+## **How to Use**
 
-Ao rodar o código, será solicitado o CPF para validação:
+1. Run the program in the terminal.
+2. The program will prompt you to enter a CPF number.
+3. After entering the CPF, the program will verify the validity of the two verification digits and inform you whether the CPF is **valid** or **invalid**.
 
-```
-Digite seu CPF: 12345678909
-```
+---
 
-O programa então exibirá a seguinte mensagem dependendo do CPF informado:
+## **Example of Execution**
 
-```
-CPF Inválido!
-```
-
-Ou, se for um CPF válido:
+When running the code, it will prompt for the CPF to validate:
 
 ```
-CPF Válido!
+Enter your CPF: 12345678909
+```
+
+The program will then display the following message depending on the CPF provided:
+
+```
+Invalid CPF!
+```
+
+Or, if the CPF is valid:
+
+```
+Valid CPF!
 ```
 
 ---
 
-## **Requisitos**
+## **Requirements**
 
-- **Python 3.x:** O código foi desenvolvido para ser executado em versões mais recentes do Python.
-
----
-
-## **Como Executar**
-
-1. Certifique-se de ter o Python 3 instalado no seu sistema.
-2. Baixe o código-fonte e salve-o em um arquivo chamado `validador_cpf.py`.
-3. Abra o terminal e navegue até o diretório onde o arquivo está salvo.
-4. Execute o comando:
-   ```bash
-   python validador_cpf.py
-   ```
+* **Python 3.x:** The code was developed to run on recent versions of Python.
 
 ---
 
-## **Observações**
+## **How to Run**
 
-- O programa aceita um CPF de 11 dígitos e realizará os cálculos baseados nos dois últimos dígitos, que são responsáveis por validar o CPF.
-- O código não realiza a formatação do CPF (não aceita pontos ou traços), então o CPF deve ser inserido sem qualquer caractere separador.
+1. Make sure Python 3 is installed on your system.
+2. Download the source code and save it in a file named `validador_cpf.py`.
+3. Open the terminal and navigate to the directory where the file is saved.
+4. Run the command:
+
+```bash
+python validador_cpf.py
+```
 
 ---
 
-Divirta-se validando seus CPFs! 🎉
+## **Notes**
+
+* The program accepts an 11-digit CPF and performs calculations based on the last two digits, which are responsible for validating the CPF.
+* The code does not perform CPF formatting (it does not accept dots or dashes), so the CPF must be entered without any separator characters.
+
+---
+
+Enjoy validating your CPFs! 🎉
